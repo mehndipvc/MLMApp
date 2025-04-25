@@ -81,7 +81,7 @@ include "header.php";
               <?php
                 if($sel_order['invoice_path']!=''){
                 ?>
-              <a href="https://mehndipvc.com/<?=$sel_order['invoice_path']?>" download class="btn btn-primary">View Invoice</a>
+              <a href="https://app.pvcinterior.in/<?=$sel_order['invoice_path']?>" download class="btn btn-primary">View Invoice</a>
               <?php } ?>
             </div>
           </div>

@@ -130,7 +130,7 @@ include "header.php";
               <?php
                 if($sel_val['invoice_path']!=''){
                 ?>
-              <a href="https://mehndipvc.com/<?=$sel_val['invoice_path']?>" download class="btn btn-primary">View Invoice</a>
+              <a href="https://app.pvcinterior.in/<?=$sel_val['invoice_path']?>" download class="btn btn-primary">View Invoice</a>
               <?php } ?>
             </div>
           </div>

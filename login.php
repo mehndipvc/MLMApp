@@ -29,7 +29,7 @@
 <body class="center flex">
     <section class="card center">
         <div class="d-logo center flex">
-            <img class="logo" src="https://mehndipvc.com/mlm-app/images/logo/logo.png" alt="logo">
+            <img class="logo" src="https://app.pvcinterior.in/mlm-app/images/logo/logo.png" alt="logo">
         </div>
         <div class="title">
             <h2 class="center flex account-title">Welcome Back!</h2>

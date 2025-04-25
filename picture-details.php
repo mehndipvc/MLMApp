@@ -112,7 +112,7 @@ function fetchData() {
     const xhr = new XMLHttpRequest();
     const catId = getCatIdFromUrl();
 
-    xhr.open('GET', `https://mehndipvc.com/mlm-app/api/fetch-image-pagination.php?cat_id=${catId}&page=${currentPage}&item=${itemsPerPage}`, true);
+    xhr.open('GET', `https://app.pvcinterior.in/mlm-app/api/fetch-image-pagination.php?cat_id=${catId}&page=${currentPage}&item=${itemsPerPage}`, true);
     xhr.onload = function() {
         if (this.status === 200) {
             const response = JSON.parse(this.responseText);
@@ -140,12 +140,12 @@ function displayData() {
         div.className = 'col-md-3';
         div.innerHTML = `
             <div class="data-item">
-                <a data-fancybox="gallery" data-caption="${item.id}" href="https://mehndipvc.com/api/assets/${item.image}">
-                    <img src="https://mehndipvc.com/api/assets/${item.image}" alt="${item.category}">
+                <a data-fancybox="gallery" data-caption="${item.id}" href="https://app.pvcinterior.in/api/assets/${item.image}">
+                    <img src="https://app.pvcinterior.in/api/assets/${item.image}" alt="${item.category}">
                 </a>
                 <div class="category-name">${item.category}</div>
                 <div class="sl-name">${item.id}</div>
-                <button class="share-button" onclick="shareImage('https://mehndipvc.com/api/assets/${item.image}')">
+                <button class="share-button" onclick="shareImage('https://app.pvcinterior.in/api/assets/${item.image}')">
                     <i class="ri-share-line"></i>
                 </button>
             </div>

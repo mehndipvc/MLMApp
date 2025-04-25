@@ -191,7 +191,7 @@ $sel_user = $obj->arr("SELECT name FROM users WHERE user_id='$user_id'");
                 <p><strong>Time:</strong> <?=$val_order['time']?></p>
                 <p><strong>Customer Name:</strong> <?=$val_order['name']?></p>
                 <?php if ($val_order['temp_path'] != '') { ?>
-                <p><strong>Invoice:</strong> <a class="btn btn-info" href="https://mehndipvc.com/<?=$val_order['temp_path']?>" download>Download</a></p>
+                <p><strong>Invoice:</strong> <a class="btn btn-info" href="https://app.pvcinterior.in/<?=$val_order['temp_path']?>" download>Download</a></p>
                 <?php } ?>
             </div>
         </div>
