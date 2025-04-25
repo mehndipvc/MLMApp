@@ -140,7 +140,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         const container = document.getElementById('data-container');
         const xhr = new XMLHttpRequest();
-        const apiUrl = 'https://app.pvcinterior.in/mlm-app/api/fetch-categories.php';
+        const apiUrl = 'https://app.pvcinterior.in/api/fetch-categories.php';
 
         xhr.open('GET', apiUrl, true);
 

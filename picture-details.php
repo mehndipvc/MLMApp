@@ -112,7 +112,7 @@ function fetchData() {
     const xhr = new XMLHttpRequest();
     const catId = getCatIdFromUrl();
 
-    xhr.open('GET', `https://app.pvcinterior.in/mlm-app/api/fetch-image-pagination.php?cat_id=${catId}&page=${currentPage}&item=${itemsPerPage}`, true);
+    xhr.open('GET', `https://app.pvcinterior.in/api/fetch-image-pagination.php?cat_id=${catId}&page=${currentPage}&item=${itemsPerPage}`, true);
     xhr.onload = function() {
         if (this.status === 200) {
             const response = JSON.parse(this.responseText);

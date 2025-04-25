@@ -19,7 +19,7 @@
 <body class="center flex">
     <section class="card1 center">
         <div class="d-logo center flex">
-            <img class="logo" src="https://app.pvcinterior.in/mlm-app/images/logo/logo.png" alt="logo">
+            <img class="logo" src="https://app.pvcinterior.in/images/logo/logo.png" alt="logo">
         </div>
         <div class="title">
             <h2 class="center flex roboto-thin">Forgot Password</h2>
