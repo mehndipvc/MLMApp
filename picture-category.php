@@ -140,7 +140,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         const container = document.getElementById('data-container');
         const xhr = new XMLHttpRequest();
-        const apiUrl = 'https://app.pvcinterior.in/api/fetch-categories.php';
+        const apiUrl = 'https://admin.pvcinterior.in/api/assets/fetch-categories.php';
 
         xhr.open('GET', apiUrl, true);
 
@@ -157,7 +157,7 @@
                         div.innerHTML = `
                             <div class="data-item">
                                 <a href="picture-details.php?id=${item.cat_id}">
-                                    <img src="https://app.pvcinterior.in/api/assets/${item.image}" alt="${item.category}">
+                                    <img src="https://admin.pvcinterior.in/api/assets/assets/${item.image}" alt="${item.category}">
                                 </a>
                                 <div class="category-name">${item.category}</div>
                                 <button class="share-button" onclick="shareImage('https://crm.mehndipvc.com/picture-category-details/${encryptedCatId}')">
