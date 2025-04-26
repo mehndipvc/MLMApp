@@ -50,7 +50,7 @@ $_COOKIE['user_type'] = $check_user['user_type'];
             $sel_banner = $obj->fetch("SELECT filename FROM banners ORDER BY id DESC");
             foreach($sel_banner as $val){
             ?>
-            <div class="item"><img src="https://admin.pvcinterior.in/api/assets/<?=$val['filename']?>" alt="Image 1"></div>
+            <div class="item"><img src="https://app.pvcinterior.in/api/assets/<?=$val['filename']?>" alt="Image 1"></div>
             <?php } ?>
     
         </div>

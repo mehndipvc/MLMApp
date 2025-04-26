@@ -157,7 +157,7 @@
                         div.innerHTML = `
                             <div class="data-item">
                                 <a href="picture-details.php?id=${item.cat_id}">
-                                    <img src="https://admin.pvcinterior.in/api/assets/assets/${item.image}" alt="${item.category}">
+                                    <img src="https://app.pvcinterior.in/api/assets/assets/${item.image}" alt="${item.category}">
                                 </a>
                                 <div class="category-name">${item.category}</div>
                                 <button class="share-button" onclick="shareImage('https://crm.mehndipvc.com/picture-category-details/${encryptedCatId}')">
