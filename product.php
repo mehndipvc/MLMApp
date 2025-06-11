@@ -13,7 +13,7 @@ $sel_products = $obj->fetch("
         SELECT * FROM items 
         WHERE cat_id='$cat_id'
     ) AS sorted_items 
-    ORDER BY CAST(SUBSTRING(name, 3) AS UNSIGNED) ASC
+    ORDER BY CAST(SUBSTRING(name, 3) AS UNSIGNED) DESC
 ");
 
 ?>
