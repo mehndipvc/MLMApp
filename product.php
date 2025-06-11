@@ -5,14 +5,15 @@ if(!isset($_COOKIE['mobile']))
     echo '<script>window.location.href="login.php"</script>';
 }
 ?>
-
 <?php include "header.php" ?>
-
 <?php
 $cat_id=$_GET['id'];
-$sel_products = $obj->fetch("SELECT * FROM items WHERE cat_id='$cat_id'");
+$sel_products = $obj->fetch("
+    SELECT * FROM items 
+    WHERE cat_id='$cat_id' 
+    ORDER BY CAST(SUBSTRING(name, 3) AS UNSIGNED)
+");
 ?>
-
 <style>
 .card {
     border: none;
