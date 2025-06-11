@@ -11,7 +11,7 @@ $cat_id=$_GET['id'];
 $sel_products = $obj->fetch("
     SELECT * FROM items 
     WHERE cat_id='$cat_id' 
-    ORDER BY CAST(SUBSTRING(name, 3) AS UNSIGNED)
+    ORDER BY CAST(SUBSTRING(name, 3) AS UNSIGNED) ASC
 ");
 ?>
 <style>
