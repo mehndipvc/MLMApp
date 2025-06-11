@@ -160,7 +160,7 @@
                                     <img src="https://app.pvcinterior.in/api/assets/${item.image}" alt="${item.category}">
                                 </a>
                                 <div class="category-name">${item.category}</div>
-                                <button class="share-button" onclick="shareImage('https://crm.mehndipvc.com/picture-category-details/${encryptedCatId}')">
+                                <button class="share-button" onclick="shareImage('https://app.mehndiinterior.in/picture-category-details/${encryptedCatId}')">
                                     <i class="ri-share-line"></i>
                                 </button>
                             </div>
